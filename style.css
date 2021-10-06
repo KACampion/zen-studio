@@ -212,7 +212,13 @@ a {
 /* Header & Footer */
 footer {
   padding-bottom: 0.5rem;
-  color: rgb(125, 120, 120);
+  color: rgb(145, 140, 140);
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+}
+
+footer p {
+  font-size: 0.8rem;
 }
 
 /* Images & Background Images */
@@ -254,12 +260,37 @@ footer {
 /* small media query */
 @media (max-width: 48em) {
   .text-xxl {
-    font-size: 6.5;
+    font-size: 6.5rem;
+  }
+  .text-xl {
+    font-size: 3.5rem;
+  }
+  .sm-block {
+    display: block;
+  }
+  .bg-leaves {
+    background-image: url(/images/leaves-light.png);
+  }
+  .text-center-sm {
+    text-align: center;
   }
 }
 /* extra small media query */
 @media (max-width: 36em) {
   .text-xxl {
-    font-size: 4.5;
+    font-size: 4.5rem;
+  }
+  .text-xl {
+    font-size: 2.5rem;
+  }
+
+  .text-lg {
+    font-size: 2.5rem;
+  }
+}
+/* extra extra small media query */
+@media (max-width: 25em) {
+  .text-xxl {
+    font-size: 2.5rem;
   }
 }
