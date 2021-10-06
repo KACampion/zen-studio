@@ -243,3 +243,23 @@ footer {
   border-top-left-radius: 20rem;
   border-top-right-radius: 20rem;
 }
+
+/* Gridlex Media Queries 
+  @media (max-width: 36em)  Max 576px 	_xs-*
+  @media (max-width: 48em)  Max 768px 	_sm-*
+  @media (max-width: 64em)  Max 1024px 	_md-*
+  @media (max-width: 80em)  Max 1280px 	_lg-*
+*/
+
+/* small media query */
+@media (max-width: 48em) {
+  .text-xxl {
+    font-size: 6.5;
+  }
+}
+/* extra small media query */
+@media (max-width: 36em) {
+  .text-xxl {
+    font-size: 4.5;
+  }
+}
