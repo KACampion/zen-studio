@@ -67,10 +67,13 @@ a {
 .padded {
   padding: 5%;
 }
-.padded-1 {
+.padded-1,
+.grid.padded-1 {
   padding: 1rem;
 }
-.padded-2 {
+
+.padded-2,
+.grid.padded-2 {
   padding: 2rem;
 }
 
@@ -107,3 +110,9 @@ a {
 /* Header & Footer */
 
 /* Images & Background Images */
+
+.bg-image {
+  background-image: url(/images/zen-studio-1.jpg);
+  background-size: cover;
+  background-position: center;
+}
